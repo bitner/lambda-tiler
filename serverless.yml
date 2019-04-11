@@ -3,9 +3,10 @@ service: lambda-tiler
 provider:
   name: aws
   runtime: python3.6
-  stage: production
+  stage: dev
+  profile: demo
 
-  region: ${opt:region, 'us-east-1'}
+  region: ${opt:region, 'us-west-1'}
 
   environment:
     PYTHONWARNINGS: ignore
@@ -27,7 +28,6 @@ custom:
 
 plugins:
   - serverless-apigw-binary
-
 package:
   artifact: package.zip
 

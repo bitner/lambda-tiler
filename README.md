@@ -4,6 +4,8 @@
 
 # Info
 
+This is a forked version of https://github.com/vincentsarago/lambda-tiler extended to demonstrate further uses of AWS Lambda for viewing and processing of spatial data. It was created for a presentation on Serverless Spatial Data by David Bitner, SolSpec LLC, at FOSS4G North America 2019.
+
 
 ---
 
@@ -19,7 +21,7 @@
 
 ```bash
 # Build Amazon linux AMI docker container + Install Python modules + create package
-git clone https://github.com/vincentsarago/lambda-tiler.git
+git clone https://github.com/bitner/lambda-tiler.git
 cd lambda-tiler/
 make all
 ```

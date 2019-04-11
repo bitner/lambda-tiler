@@ -16,6 +16,7 @@ inst_reqs = [
     "lambda-proxy~=3.0.0",
     "requests",
     "rio-color",
+    "psycopg2-binary"
 ]
 
 extra_reqs = {}
